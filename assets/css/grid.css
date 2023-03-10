@@ -1,0 +1,128 @@
+.grid-container{
+    display: grid;
+    background-color: yellowgreen;
+    padding: 5px;
+    width: 350px;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    grid-template-areas: 
+        "item1 item1 item2 item2"
+        "item1 item1 item4 item5"
+        "item3 item3 item4 item7"
+        "item3 item3 item6 item7"
+        "item8 item8 item8 item9"
+        "item10 item10 item10 item10";
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+}
+
+.item1{
+    grid-area: item1;
+    background: green;
+}
+
+.icon1{
+    margin-top: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+.item2{
+    grid-area: item2;
+    background: cyan;
+}
+
+.icon2{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.item3{
+    grid-area: item3;
+    background: orangered;
+}
+
+.icon3{
+    margin-top: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+.item4{
+    grid-area: item4;
+    background: yellow;
+}
+
+.icon4{
+    margin-top: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+.item5{
+    grid-area: item5;
+    background: brown;
+}
+
+.icon5{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.item6{
+    grid-area: item6;
+    background: red;
+}
+
+.icon6{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.item7{
+    grid-area: item7;
+    background:mediumblue ;
+}
+
+.icon7{
+    margin-top: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+.item8{
+    grid-area: item8;
+    background:deeppink ;
+}
+
+.icon8{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.item9{
+    grid-area: item9;
+    background: purple;
+}
+
+.icon9{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
+
+.item10{
+    grid-area: item10;
+    background:blue;
+}
+
+.icon10{
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
