@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: pink;
 }
@@ -52,4 +53,60 @@ img{
 
 .konten2{
     color: blue;
+=======
+body{
+    background: pink;
+}
+
+h1{
+    text-align: center;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.grid1 > article{
+    border: 3px solid red;
+    border-radius: 20px;
+    position: relative;
+    background-color:darksalmon;
+    text-align: center;
+}
+
+.konten1{
+    color: red;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.grid2 > article{
+    border: 3px solid blue;
+    border-radius: 20px;
+    position: relative;
+    background-color:lightblue;
+    text-align: center;
+}
+
+.konten2{
+    color: blue;
+>>>>>>> d6e6810aa155769124dc4bdd237ac31f74eb762e
 }

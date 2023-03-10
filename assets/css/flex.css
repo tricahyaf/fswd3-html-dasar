@@ -1,0 +1,81 @@
+body {
+	background-color:rgb(238, 227, 214);
+  }
+
+.flex-container { 
+  width: 500px;
+  height: 700px;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  background-color: rgb(238, 227, 214);
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+}
+
+.flex.item  {
+    padding: 20%;
+    font-size: 70%;
+    text-align: center;
+}
+
+.item1 {
+    background-color:rgb(114, 76, 76);
+    flex-basis: 245px;
+    height: 180px;
+}
+
+.item2 {
+    background-color: rgb(219, 128, 128);
+    flex-basis: 245px;
+    height: 180px;
+}
+
+.item3 {
+    background-color: rgb(56, 27, 27);
+    flex-basis: 160px;
+    height: 140px;
+}
+
+.item4 {
+    background-color: rgb(136, 62, 62);
+    width: 160px;
+    height: 140px;
+}
+
+.item5 {
+    background-color: rgb(95, 80, 80);
+    width: 160px;
+    height: 140px;
+}
+
+.item6 {
+    background-color: rgb(194, 144, 144);
+    width: 160px;
+    height: 140px;
+}
+
+.item7 {
+    background-color: rgb(126, 126, 126);
+    width: 160px;
+    height: 140px;
+}
+
+.item8 {
+    background-color: rgb(44, 6, 6);
+    width: 160px;
+    height: 140px;
+}
+
+.item9 {
+    background-color: rgb(59, 17, 17);
+    width: 245px;
+    height: 180px;
+}
+
+.item10 {
+    background-color: rgb(173, 124, 124);
+    width: 245px;
+    height: 180px;
+}
