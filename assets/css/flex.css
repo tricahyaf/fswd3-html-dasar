@@ -1,81 +1,119 @@
-body {
-	background-color:rgb(238, 227, 214);
-  }
-
-.flex-container { 
-  width: 500px;
-  height: 700px;
-  gap: 10px;
-  padding: 10px;
-  display: flex;
-  background-color: rgb(238, 227, 214);
-  flex-wrap: wrap;
-  flex-direction: row;
-  color: rgb(255, 255, 255);
-}
-
-.flex.item  {
-    padding: 20%;
-    font-size: 70%;
+.container{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    padding: 20px;
+    width: 420px;
+    gap: 10px;
+    background-color: lightcyan;
+}
+.section1{
+    display: flex;
+    gap: 10px;
+}
+.section2{
+    display: flex;
+    gap: 10px;
+}
+.section4{
+    display: flex;
+    gap: 10px;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block5{
+    display: flex;
+    gap: 10px;
+}
+img{
+    margin-top: 5rem;
+}
+.box3 img{
+    margin-top: 2.5rem;
+}
+.box5 img{
+    margin-top: 2.5rem;
+}
+.box6 img{
+    margin-top: 2.5rem;
+}
+.box8 img{
+    margin-top: 2.5rem;
+}
+.box9 img{
+    margin-top: 2.5rem;
+}
+.box10 img{
+    margin-top: 2.5rem;
 }
 
-.item1 {
-    background-color:rgb(114, 76, 76);
-    flex-basis: 245px;
-    height: 180px;
-}
+ /* Box Section */
 
-.item2 {
-    background-color: rgb(219, 128, 128);
-    flex-basis: 245px;
-    height: 180px;
+.box1{
+    width: 200px;
+    height: 205px;
+    background-color: green;
 }
-
-.item3 {
-    background-color: rgb(56, 27, 27);
-    flex-basis: 160px;
-    height: 140px;
+.box2{
+    width: 200px;
+    height: 205px;
+    background-color: orangered;
 }
-
-.item4 {
-    background-color: rgb(136, 62, 62);
-    width: 160px;
-    height: 140px;
+.box3{
+    width: 210px;
+    height: 100px;
+    background-color: cyan;
 }
-
-.item5 {
-    background-color: rgb(95, 80, 80);
-    width: 160px;
-    height: 140px;
+.box4{
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
 }
-
-.item6 {
-    background-color: rgb(194, 144, 144);
-    width: 160px;
-    height: 140px;
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
-
-.item7 {
-    background-color: rgb(126, 126, 126);
-    width: 160px;
-    height: 140px;
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
 }
-
-.item8 {
-    background-color: rgb(44, 6, 6);
-    width: 160px;
-    height: 140px;
+.box7{
+    width: 100px;
+    height: 200px;
+    background-color: mediumblue;
 }
-
-.item9 {
-    background-color: rgb(59, 17, 17);
-    width: 245px;
-    height: 180px;
+.box8{
+    width: 310px;
+    height: 100px;
+    background-color: deeppink;
 }
-
-.item10 {
-    background-color: rgb(173, 124, 124);
-    width: 245px;
-    height: 180px;
+.box9{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+.box10{
+    width: 420px;
+    height: 100px;
+    background-color: blue;
 }
