@@ -42,6 +42,16 @@ function manageLocalStorage(action, item) {
 
         manageLocalStorage("TAMBAH", inputUser.value);
 
+        fetch('https://crudcrud.com/api/e73d5b5ab99e4baf87afcf6ea903ab7c/mahasiswa', {
+            headers: { "Content-Type": "application/json; charset=utf-8"},
+            method: 'POST',
+            body: JSON.stringify({
+                todos: inputUser.value
+            })
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+
         inputUser.value = "";
         event.preventDefault();
 
